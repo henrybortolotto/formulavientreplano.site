@@ -53,7 +53,7 @@
       border-radius: 10px;
       padding: 5px 10px;
       font-size: 30px;
-      background-color: #008000;
+      background-color: #FFA500;
       outline: none;
       text-decoration: none;
       color: black;
@@ -95,18 +95,8 @@
     <div class="black">
       <div id="primeira">
         <div class="question">
-          <h1>Pregunta 1</h1>
-          <p>¿Realmente quieres descubrir este secreto?</p>
-        </div>
-        <div class="answer">
-          <button class="btn" onclick="segunda()">SÍ</button>
-          <button class="btn" onclick="segunda()">NO</button>
-        </div>
-      </div>
-      <div id="segunda" class="hide">
-        <div class="question">
-          <h1>Pregunta 2</h1>
-          <p>El video a continuación tiene un límite para que solo unas pocas personas lo vean al mismo tiempo... ¿Tienes intención de verlo hasta el final?</p>
+          <h1>Vídeo cargado exitosamente</h1>
+          <p>¿Quieres ver el video y descubrir los 3 consejos? Haz clic en el botón naranja.</p>
         </div>
         <div class="answer">
           <button class="btn" onclick="redirect()">SÍ</button>
@@ -114,13 +104,12 @@
         </div>
       </div>
     </div>
-    <p style="text-align: center; font-weight: bold;">© 2023 – Todos los derechos reservados. Este sitio web no forma parte ni está respaldado por Facebook. Facebook es una marca comercial de Facebook, Inc.</p>
+    <p style="text-align: center; font-weight: bold;">© 2023 – Todos los derechos reservados. Este sitio web no forma parte ni está respaldado por Facebook. Facebook es una marca comercial da Meta, Inc.</p>
     <p style="text-align: center; font-weight: bold;"><a href="https://formulavientreplano.site/termos" style="color: black;">Términos de Uso</a> | <a href="https://formulavientreplano.site/privacidade" style="color: black;">Política de Privacidad</a></p>
   </div>
   <script>
     function segunda() {
       document.getElementById("primeira").classList.add("hide")
-      document.getElementById("segunda").classList.remove("hide")
     }
     function redirect() {
       location.href = "https://formulavientreplano.site/" // SEU LINK AQUI
